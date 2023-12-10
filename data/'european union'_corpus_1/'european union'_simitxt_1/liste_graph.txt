@@ -1,0 +1,7 @@
+graph_simi_1.png; - arbre maximum
+graph_simi_2.png; - arbre maximum
+graph_simi_3.png; - arbre maximum
+graph_simi_4.svg; - arbre maximum
+graph_simi_4.png; - arbre maximum
+graph_simi_5.png; - arbre maximum
+graph_simi_6.png; - arbre maximum
