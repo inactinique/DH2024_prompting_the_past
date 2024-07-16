@@ -38171,3 +38171,6 @@ nltk_data/tokenizers/punkt/swedish.pickle
 nltk_data/tokenizers/punkt/turkish.pickle
 .DS_Store
 data/prompts.csv
+/.ipynb_checkpoints
+/.virtual_documents
+*.npy
