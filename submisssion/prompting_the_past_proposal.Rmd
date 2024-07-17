@@ -34,7 +34,7 @@ The lack of sociodemographic metadata could then be supplemented by a complement
 
 # Analyzing data
 
-![Figure 2: Analysis of the corpus of prompts with IRaMuTeQ](img/06_dendro.png)
+![Analysis of the corpus of prompts with IRaMuTeQ](img/06_dendro.png)
 
 For now, we have collected data from a search engine, lexica.art, and will use our small dataset (that can be seen as a test sample) for our distant reading experiments. This small corpus is made of 1908 prompts, collected in March 2023 with the keyword 'european union' on lexica.art. We chose this keyword to see in which ways users are relating to the European Union's and Europe's historical past. The preliminary results show that, whether using [iramuteq](https://iramuteq.org), LDA or word2vec[^code], references to the past are quite important in those prompts. Styles (the style users want for an image) are sometimes 'historical' ('soviet propaganda' for instance). References to the past are mixed with elements of the current or recent news ('marine' for the far-right politician Marine Le Pen in France, 'nigel farage' for the Brexit activist, or references to the Russian agression against Ukraine for instance). Sometimes the notion of 'Europe' is linked to a precise period of time, such as the Middle Ages ('heraldic'). Some historical concepts linked to the European history are also quite visible ('empire' for instance). War is very present, but our experience shows that there is a general link that is made between history and war in that kind of corpus.
 
