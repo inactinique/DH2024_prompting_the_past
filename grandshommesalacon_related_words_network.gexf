@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-07-17">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="2588511492" label="2588511492" />
+      <node id="1724925036" label="1724925036" />
+      <node id="humbert" label="humbert" />
+      <node id="nandaba" label="nandaba" />
+      <node id="coronation" label="coronation" />
+      <node id="caesar" label="caesar" />
+      <node id="3924568198" label="3924568198" />
+      <node id="nabokov" label="nabokov" />
+      <node id="louverture" label="louverture" />
+      <node id="2239472242" label="2239472242" />
+      <node id="napolean" label="napolean" />
+      <node id="sikora" label="sikora" />
+      <node id="cantido" label="cantido" />
+      <node id="putid" label="putid" />
+      <node id="napoleon" label="napoleon" />
+      <node id="ouverture" label="ouverture" />
+      <node id="cornells" label="cornells" />
+      <node id="wrigh" label="wrigh" />
+      <node id="linocuts" label="linocuts" />
+      <node id="kip" label="kip" />
+      <node id="napo" label="napo" />
+      <node id="3207738150" label="3207738150" />
+      <node id="voleg" label="voleg" />
+      <node id="647138160" label="647138160" />
+      <node id="caesa" label="caesa" />
+      <node id="jostar" label="jostar" />
+      <node id="napol" label="napol" />
+      <node id="1640371120" label="1640371120" />
+      <node id="dagguerotype" label="dagguerotype" />
+      <node id="2216478735" label="2216478735" />
+      <node id="zimakov" label="zimakov" />
+      <node id="putinboxing" label="putinboxing" />
+      <node id="klever" label="klever" />
+      <node id="siffred" label="siffred" />
+      <node id="stalin" label="stalin" />
+      <node id="rajasanagara" label="rajasanagara" />
+      <node id="1946040559" label="1946040559" />
+      <node id="mccloskey" label="mccloskey" />
+      <node id="putin" label="putin" />
+      <node id="napoleo" label="napoleo" />
+      <node id="jerrick" label="jerrick" />
+      <node id="2845431467" label="2845431467" />
+      <node id="malema" label="malema" />
+      <node id="goebbels" label="goebbels" />
+      <node id="347144559" label="347144559" />
+      <node id="lenin" label="lenin" />
+      <node id="napoloen" label="napoloen" />
+      <node id="neubranner" label="neubranner" />
+      <node id="golubchik" label="golubchik" />
+      <node id="solovyov" label="solovyov" />
+      <node id="sergius" label="sergius" />
+      <node id="semenskya" label="semenskya" />
+      <node id="hafor" label="hafor" />
+      <node id="harryhousen" label="harryhousen" />
+      <node id="joubert" label="joubert" />
+      <node id="lorusso" label="lorusso" />
+    </nodes>
+    <edges>
+      <edge source="2588511492" target="jerrick" id="0" weight="0.9593607187271118" />
+      <edge source="2588511492" target="sergius" id="1" weight="0.8920891880989075" />
+      <edge source="2588511492" target="klever" id="2" weight="0.8858944773674011" />
+      <edge source="2588511492" target="neubranner" id="3" weight="0.8717910051345825" />
+      <edge source="2588511492" target="malema" id="4" weight="0.8161108493804932" />
+      <edge source="2588511492" target="hafor" id="5" weight="0.8070125579833984" />
+      <edge source="2588511492" target="caesa" id="6" weight="0.6684200763702393" />
+      <edge source="2588511492" target="caesar" id="7" weight="0.6263285875320435" />
+      <edge source="1724925036" target="humbert" id="8" weight="0.9110706448554993" />
+      <edge source="1724925036" target="nabokov" id="9" weight="0.8974066376686096" />
+      <edge source="1724925036" target="linocuts" id="10" weight="0.8881688117980957" />
+      <edge source="1724925036" target="putinboxing" id="11" weight="0.8747557997703552" />
+      <edge source="1724925036" target="solovyov" id="12" weight="0.8738219738006592" />
+      <edge source="1724925036" target="voleg" id="13" weight="0.851967990398407" />
+      <edge source="1724925036" target="putid" id="14" weight="0.843140184879303" />
+      <edge source="1724925036" target="semenskya" id="15" weight="0.8386836051940918" />
+      <edge source="1724925036" target="zimakov" id="16" weight="0.8224702477455139" />
+      <edge source="1724925036" target="putin" id="17" weight="0.5903854966163635" />
+      <edge source="1724925036" target="lenin" id="18" weight="0.5555875897407532" />
+      <edge source="humbert" target="nabokov" id="19" weight="0.9655526876449585" />
+      <edge source="humbert" target="linocuts" id="20" weight="0.9144262671470642" />
+      <edge source="humbert" target="solovyov" id="21" weight="0.9067797660827637" />
+      <edge source="humbert" target="putinboxing" id="22" weight="0.9029721021652222" />
+      <edge source="humbert" target="semenskya" id="23" weight="0.8834695219993591" />
+      <edge source="humbert" target="putid" id="24" weight="0.8779270052909851" />
+      <edge source="humbert" target="voleg" id="25" weight="0.8777303695678711" />
+      <edge source="humbert" target="zimakov" id="26" weight="0.8754844069480896" />
+      <edge source="humbert" target="putin" id="27" weight="0.7034047245979309" />
+      <edge source="humbert" target="lenin" id="28" weight="0.6446601152420044" />
+      <edge source="nandaba" target="cantido" id="29" weight="0.9708768129348755" />
+      <edge source="nandaba" target="mccloskey" id="30" weight="0.9136602878570557" />
+      <edge source="nandaba" target="lorusso" id="31" weight="0.9039537310600281" />
+      <edge source="nandaba" target="golubchik" id="32" weight="0.9038476347923279" />
+      <edge source="nandaba" target="wrigh" id="33" weight="0.9028179049491882" />
+      <edge source="nandaba" target="cornells" id="34" weight="0.8902149796485901" />
+      <edge source="nandaba" target="3207738150" id="35" weight="0.8881047964096069" />
+      <edge source="nandaba" target="sikora" id="36" weight="0.8836454153060913" />
+      <edge source="nandaba" target="jostar" id="37" weight="0.8613839149475098" />
+      <edge source="nandaba" target="siffred" id="38" weight="0.8290088772773743" />
+      <edge source="nandaba" target="goebbels" id="39" weight="0.8195937275886536" />
+      <edge source="nandaba" target="joubert" id="40" weight="0.8145126104354858" />
+      <edge source="nandaba" target="stalin" id="41" weight="0.6422096490859985" />
+      <edge source="coronation" target="napol" id="42" weight="0.718070924282074" />
+      <edge source="coronation" target="napoleon" id="43" weight="0.7082552909851074" />
+      <edge source="coronation" target="3924568198" id="44" weight="0.6303960680961609" />
+      <edge source="coronation" target="1640371120" id="45" weight="0.6116912364959717" />
+      <edge source="coronation" target="napoleo" id="46" weight="0.5916405916213989" />
+      <edge source="coronation" target="rajasanagara" id="47" weight="0.5482891201972961" />
+      <edge source="coronation" target="dagguerotype" id="48" weight="0.5333143472671509" />
+      <edge source="coronation" target="napo" id="49" weight="0.5330100655555725" />
+      <edge source="coronation" target="2845431467" id="50" weight="0.5111006498336792" />
+      <edge source="coronation" target="napolean" id="51" weight="0.4762985408306122" />
+      <edge source="coronation" target="napoloen" id="52" weight="0.47430312633514404" />
+      <edge source="coronation" target="louverture" id="53" weight="0.43951982259750366" />
+      <edge source="caesar" target="malema" id="54" weight="0.7164582014083862" />
+      <edge source="caesar" target="jerrick" id="55" weight="0.6997324228286743" />
+      <edge source="caesar" target="sergius" id="56" weight="0.6880167126655579" />
+      <edge source="caesar" target="caesa" id="57" weight="0.6869511604309082" />
+      <edge source="caesar" target="klever" id="58" weight="0.6500626802444458" />
+      <edge source="caesar" target="hafor" id="59" weight="0.6343629956245422" />
+      <edge source="caesar" target="neubranner" id="60" weight="0.5753949880599976" />
+      <edge source="caesar" target="harryhousen" id="61" weight="0.5325577855110168" />
+      <edge source="3924568198" target="napoleo" id="62" weight="0.7956715226173401" />
+      <edge source="3924568198" target="rajasanagara" id="63" weight="0.7495313882827759" />
+      <edge source="3924568198" target="napol" id="64" weight="0.7314843535423279" />
+      <edge source="3924568198" target="napo" id="65" weight="0.6930846571922302" />
+      <edge source="3924568198" target="2845431467" id="66" weight="0.684977114200592" />
+      <edge source="3924568198" target="2216478735" id="67" weight="0.661386251449585" />
+      <edge source="3924568198" target="napoleon" id="68" weight="0.5232641696929932" />
+      <edge source="nabokov" target="solovyov" id="69" weight="0.9312740564346313" />
+      <edge source="nabokov" target="semenskya" id="70" weight="0.9115845561027527" />
+      <edge source="nabokov" target="linocuts" id="71" weight="0.9086418151855469" />
+      <edge source="nabokov" target="zimakov" id="72" weight="0.9069715738296509" />
+      <edge source="nabokov" target="putid" id="73" weight="0.9010012745857239" />
+      <edge source="nabokov" target="voleg" id="74" weight="0.8931671977043152" />
+      <edge source="nabokov" target="putinboxing" id="75" weight="0.8854684829711914" />
+      <edge source="nabokov" target="putin" id="76" weight="0.7381857633590698" />
+      <edge source="nabokov" target="lenin" id="77" weight="0.683767557144165" />
+      <edge source="louverture" target="napoloen" id="78" weight="0.7901948094367981" />
+      <edge source="louverture" target="ouverture" id="79" weight="0.7567605376243591" />
+      <edge source="louverture" target="napolean" id="80" weight="0.47938328981399536" />
+      <edge source="louverture" target="napoleon" id="81" weight="0.5354189872741699" />
+      <edge source="louverture" target="napol" id="82" weight="0.5090115070343018" />
+      <edge source="louverture" target="1640371120" id="83" weight="0.5350929498672485" />
+      <edge source="2239472242" target="1946040559" id="84" weight="0.8248435854911804" />
+      <edge source="2239472242" target="347144559" id="85" weight="0.8014249801635742" />
+      <edge source="2239472242" target="harryhousen" id="86" weight="0.795064389705658" />
+      <edge source="2239472242" target="647138160" id="87" weight="0.7785376310348511" />
+      <edge source="2239472242" target="caesa" id="88" weight="0.7568778991699219" />
+      <edge source="napolean" target="napoleon" id="89" weight="0.655226469039917" />
+      <edge source="napolean" target="kip" id="90" weight="0.6419326663017273" />
+      <edge source="napolean" target="napoloen" id="91" weight="0.5985246300697327" />
+      <edge source="napolean" target="napol" id="92" weight="0.5510111451148987" />
+      <edge source="napolean" target="dagguerotype" id="93" weight="0.5315967202186584" />
+      <edge source="napolean" target="1640371120" id="94" weight="0.5092483758926392" />
+      <edge source="napolean" target="ouverture" id="95" weight="0.4183332026004791" />
+      <edge source="sikora" target="wrigh" id="96" weight="0.9038062691688538" />
+      <edge source="sikora" target="cantido" id="97" weight="0.8999512791633606" />
+      <edge source="sikora" target="mccloskey" id="98" weight="0.8963572382926941" />
+      <edge source="sikora" target="lorusso" id="99" weight="0.879104733467102" />
+      <edge source="sikora" target="golubchik" id="100" weight="0.8744632005691528" />
+      <edge source="sikora" target="3207738150" id="101" weight="0.8637718558311462" />
+      <edge source="sikora" target="cornells" id="102" weight="0.8559297919273376" />
+      <edge source="sikora" target="jostar" id="103" weight="0.8528740406036377" />
+      <edge source="sikora" target="siffred" id="104" weight="0.8464583158493042" />
+      <edge source="sikora" target="joubert" id="105" weight="0.8225085139274597" />
+      <edge source="sikora" target="goebbels" id="106" weight="0.7843105792999268" />
+      <edge source="sikora" target="stalin" id="107" weight="0.6997336745262146" />
+      <edge source="cantido" target="mccloskey" id="108" weight="0.9485462307929993" />
+      <edge source="cantido" target="wrigh" id="109" weight="0.9384334683418274" />
+      <edge source="cantido" target="lorusso" id="110" weight="0.9275089502334595" />
+      <edge source="cantido" target="golubchik" id="111" weight="0.9257565140724182" />
+      <edge source="cantido" target="cornells" id="112" weight="0.916158139705658" />
+      <edge source="cantido" target="3207738150" id="113" weight="0.8925297260284424" />
+      <edge source="cantido" target="jostar" id="114" weight="0.8874082565307617" />
+      <edge source="cantido" target="siffred" id="115" weight="0.8605498671531677" />
+      <edge source="cantido" target="joubert" id="116" weight="0.8405126333236694" />
+      <edge source="cantido" target="goebbels" id="117" weight="0.8325764536857605" />
+      <edge source="cantido" target="stalin" id="118" weight="0.6965462565422058" />
+      <edge source="putid" target="solovyov" id="119" weight="0.9441091418266296" />
+      <edge source="putid" target="voleg" id="120" weight="0.919384241104126" />
+      <edge source="putid" target="zimakov" id="121" weight="0.9108493328094482" />
+      <edge source="putid" target="semenskya" id="122" weight="0.9076395630836487" />
+      <edge source="putid" target="linocuts" id="123" weight="0.902582585811615" />
+      <edge source="putid" target="putinboxing" id="124" weight="0.8917075395584106" />
+      <edge source="putid" target="putin" id="125" weight="0.7106650471687317" />
+      <edge source="putid" target="lenin" id="126" weight="0.7070754766464233" />
+      <edge source="napoleon" target="napol" id="127" weight="0.7423535585403442" />
+      <edge source="napoleon" target="napoloen" id="128" weight="0.6664001941680908" />
+      <edge source="napoleon" target="napoleo" id="129" weight="0.6014120578765869" />
+      <edge source="napoleon" target="1640371120" id="130" weight="0.5934942364692688" />
+      <edge source="napoleon" target="rajasanagara" id="131" weight="0.55671226978302" />
+      <edge source="napoleon" target="kip" id="132" weight="0.5535120964050293" />
+      <edge source="napoleon" target="dagguerotype" id="133" weight="0.5526791214942932" />
+      <edge source="napoleon" target="2845431467" id="134" weight="0.5224548578262329" />
+      <edge source="napoleon" target="napo" id="135" weight="0.5191140174865723" />
+      <edge source="napoleon" target="ouverture" id="136" weight="0.4615185856819153" />
+      <edge source="napoleon" target="2216478735" id="137" weight="0.44876858592033386" />
+      <edge source="ouverture" target="napoloen" id="138" weight="0.8151395916938782" />
+      <edge source="cornells" target="mccloskey" id="139" weight="0.9210219979286194" />
+      <edge source="cornells" target="wrigh" id="140" weight="0.906588077545166" />
+      <edge source="cornells" target="lorusso" id="141" weight="0.9018615484237671" />
+      <edge source="cornells" target="golubchik" id="142" weight="0.8833351135253906" />
+      <edge source="cornells" target="3207738150" id="143" weight="0.8571097254753113" />
+      <edge source="cornells" target="jostar" id="144" weight="0.8527066111564636" />
+      <edge source="cornells" target="siffred" id="145" weight="0.8413980603218079" />
+      <edge source="cornells" target="joubert" id="146" weight="0.8295385837554932" />
+      <edge source="cornells" target="goebbels" id="147" weight="0.764094352722168" />
+      <edge source="cornells" target="stalin" id="148" weight="0.6804739236831665" />
+      <edge source="wrigh" target="mccloskey" id="149" weight="0.9628061652183533" />
+      <edge source="wrigh" target="jostar" id="150" weight="0.9119085073471069" />
+      <edge source="wrigh" target="golubchik" id="151" weight="0.9077394604682922" />
+      <edge source="wrigh" target="lorusso" id="152" weight="0.9059506058692932" />
+      <edge source="wrigh" target="siffred" id="153" weight="0.8846123218536377" />
+      <edge source="wrigh" target="3207738150" id="154" weight="0.8738608360290527" />
+      <edge source="wrigh" target="joubert" id="155" weight="0.8415454626083374" />
+      <edge source="wrigh" target="goebbels" id="156" weight="0.8236602544784546" />
+      <edge source="wrigh" target="stalin" id="157" weight="0.6918306946754456" />
+      <edge source="linocuts" target="solovyov" id="158" weight="0.915054440498352" />
+      <edge source="linocuts" target="putinboxing" id="159" weight="0.912411093711853" />
+      <edge source="linocuts" target="semenskya" id="160" weight="0.8725337386131287" />
+      <edge source="linocuts" target="zimakov" id="161" weight="0.8708480596542358" />
+      <edge source="linocuts" target="voleg" id="162" weight="0.8660613298416138" />
+      <edge source="linocuts" target="putin" id="163" weight="0.6608222723007202" />
+      <edge source="linocuts" target="lenin" id="164" weight="0.6149098873138428" />
+      <edge source="kip" target="napoloen" id="165" weight="0.4911048412322998" />
+      <edge source="kip" target="napol" id="166" weight="0.44022464752197266" />
+      <edge source="napo" target="2845431467" id="167" weight="0.7862390875816345" />
+      <edge source="napo" target="rajasanagara" id="168" weight="0.7013983726501465" />
+      <edge source="napo" target="napoleo" id="169" weight="0.6763192415237427" />
+      <edge source="napo" target="napol" id="170" weight="0.6077268123626709" />
+      <edge source="napo" target="2216478735" id="171" weight="0.5804849863052368" />
+      <edge source="3207738150" target="lorusso" id="172" weight="0.9235469102859497" />
+      <edge source="3207738150" target="mccloskey" id="173" weight="0.8886258602142334" />
+      <edge source="3207738150" target="golubchik" id="174" weight="0.8848332166671753" />
+      <edge source="3207738150" target="jostar" id="175" weight="0.8495532870292664" />
+      <edge source="3207738150" target="joubert" id="176" weight="0.8492854237556458" />
+      <edge source="3207738150" target="siffred" id="177" weight="0.8190158009529114" />
+      <edge source="3207738150" target="goebbels" id="178" weight="0.7841827273368835" />
+      <edge source="3207738150" target="stalin" id="179" weight="0.6301462054252625" />
+      <edge source="voleg" target="solovyov" id="180" weight="0.9291881918907166" />
+      <edge source="voleg" target="semenskya" id="181" weight="0.9055077433586121" />
+      <edge source="voleg" target="zimakov" id="182" weight="0.9010936617851257" />
+      <edge source="voleg" target="putinboxing" id="183" weight="0.8797465562820435" />
+      <edge source="voleg" target="putin" id="184" weight="0.6794500946998596" />
+      <edge source="voleg" target="lenin" id="185" weight="0.6716848015785217" />
+      <edge source="647138160" target="347144559" id="186" weight="0.882256269454956" />
+      <edge source="647138160" target="harryhousen" id="187" weight="0.8699283599853516" />
+      <edge source="647138160" target="1946040559" id="188" weight="0.8509859442710876" />
+      <edge source="647138160" target="caesa" id="189" weight="0.762313961982727" />
+      <edge source="caesa" target="1946040559" id="190" weight="0.7482293248176575" />
+      <edge source="caesa" target="harryhousen" id="191" weight="0.7438564896583557" />
+      <edge source="caesa" target="347144559" id="192" weight="0.7437187433242798" />
+      <edge source="caesa" target="jerrick" id="193" weight="0.7172191739082336" />
+      <edge source="caesa" target="hafor" id="194" weight="0.6894891262054443" />
+      <edge source="caesa" target="malema" id="195" weight="0.6778982877731323" />
+      <edge source="caesa" target="sergius" id="196" weight="0.6706618070602417" />
+      <edge source="caesa" target="klever" id="197" weight="0.6637157201766968" />
+      <edge source="caesa" target="neubranner" id="198" weight="0.6243380904197693" />
+      <edge source="jostar" target="mccloskey" id="199" weight="0.8949187994003296" />
+      <edge source="jostar" target="lorusso" id="200" weight="0.890439510345459" />
+      <edge source="jostar" target="siffred" id="201" weight="0.8843289017677307" />
+      <edge source="jostar" target="golubchik" id="202" weight="0.8669520020484924" />
+      <edge source="jostar" target="joubert" id="203" weight="0.825858473777771" />
+      <edge source="jostar" target="goebbels" id="204" weight="0.808433473110199" />
+      <edge source="jostar" target="stalin" id="205" weight="0.7301693558692932" />
+      <edge source="napol" target="napoleo" id="206" weight="0.8523300290107727" />
+      <edge source="napol" target="2845431467" id="207" weight="0.6407977938652039" />
+      <edge source="napol" target="rajasanagara" id="208" weight="0.6054317951202393" />
+      <edge source="napol" target="napoloen" id="209" weight="0.5950050354003906" />
+      <edge source="napol" target="1640371120" id="210" weight="0.5879852175712585" />
+      <edge source="napol" target="2216478735" id="211" weight="0.5837255716323853" />
+      <edge source="napol" target="dagguerotype" id="212" weight="0.488163560628891" />
+      <edge source="1640371120" target="dagguerotype" id="213" weight="0.7484390735626221" />
+      <edge source="1640371120" target="2216478735" id="214" weight="0.4219905436038971" />
+      <edge source="1640371120" target="napoleo" id="215" weight="0.48553550243377686" />
+      <edge source="1640371120" target="napoloen" id="216" weight="0.47387176752090454" />
+      <edge source="dagguerotype" target="napoleo" id="217" weight="0.473183810710907" />
+      <edge source="2216478735" target="napoleo" id="218" weight="0.6624991297721863" />
+      <edge source="2216478735" target="2845431467" id="219" weight="0.5299597978591919" />
+      <edge source="2216478735" target="rajasanagara" id="220" weight="0.5136363506317139" />
+      <edge source="zimakov" target="semenskya" id="221" weight="0.9060252904891968" />
+      <edge source="zimakov" target="solovyov" id="222" weight="0.8968503475189209" />
+      <edge source="zimakov" target="putinboxing" id="223" weight="0.8277183175086975" />
+      <edge source="zimakov" target="putin" id="224" weight="0.6950594186782837" />
+      <edge source="zimakov" target="lenin" id="225" weight="0.6842160820960999" />
+      <edge source="putinboxing" target="solovyov" id="226" weight="0.9070892930030823" />
+      <edge source="putinboxing" target="semenskya" id="227" weight="0.8626189827919006" />
+      <edge source="putinboxing" target="putin" id="228" weight="0.6893247961997986" />
+      <edge source="putinboxing" target="lenin" id="229" weight="0.6488261222839355" />
+      <edge source="klever" target="sergius" id="230" weight="0.9677994847297668" />
+      <edge source="klever" target="jerrick" id="231" weight="0.9264170527458191" />
+      <edge source="klever" target="hafor" id="232" weight="0.8419173955917358" />
+      <edge source="klever" target="malema" id="233" weight="0.8408754467964172" />
+      <edge source="klever" target="neubranner" id="234" weight="0.8230605721473694" />
+      <edge source="siffred" target="mccloskey" id="235" weight="0.8691487312316895" />
+      <edge source="siffred" target="lorusso" id="236" weight="0.8585617542266846" />
+      <edge source="siffred" target="golubchik" id="237" weight="0.8512977361679077" />
+      <edge source="siffred" target="goebbels" id="238" weight="0.770428478717804" />
+      <edge source="siffred" target="joubert" id="239" weight="0.758155345916748" />
+      <edge source="siffred" target="stalin" id="240" weight="0.6547458171844482" />
+      <edge source="stalin" target="mccloskey" id="241" weight="0.707321047782898" />
+      <edge source="stalin" target="goebbels" id="242" weight="0.7068704962730408" />
+      <edge source="stalin" target="joubert" id="243" weight="0.7005876302719116" />
+      <edge source="stalin" target="lorusso" id="244" weight="0.6965761780738831" />
+      <edge source="stalin" target="golubchik" id="245" weight="0.6945315003395081" />
+      <edge source="rajasanagara" target="napoleo" id="246" weight="0.6515843868255615" />
+      <edge source="rajasanagara" target="2845431467" id="247" weight="0.6024848222732544" />
+      <edge source="1946040559" target="347144559" id="248" weight="0.8729963898658752" />
+      <edge source="1946040559" target="harryhousen" id="249" weight="0.8675403594970703" />
+      <edge source="mccloskey" target="golubchik" id="250" weight="0.9317158460617065" />
+      <edge source="mccloskey" target="lorusso" id="251" weight="0.9132288098335266" />
+      <edge source="mccloskey" target="goebbels" id="252" weight="0.8528679609298706" />
+      <edge source="mccloskey" target="joubert" id="253" weight="0.8478477597236633" />
+      <edge source="putin" target="solovyov" id="254" weight="0.7350597977638245" />
+      <edge source="putin" target="lenin" id="255" weight="0.7177118062973022" />
+      <edge source="putin" target="semenskya" id="256" weight="0.6952893733978271" />
+      <edge source="napoleo" target="2845431467" id="257" weight="0.6459782719612122" />
+      <edge source="jerrick" target="sergius" id="258" weight="0.919990062713623" />
+      <edge source="jerrick" target="malema" id="259" weight="0.8734991550445557" />
+      <edge source="jerrick" target="neubranner" id="260" weight="0.8688327670097351" />
+      <edge source="jerrick" target="hafor" id="261" weight="0.8533270955085754" />
+      <edge source="malema" target="sergius" id="262" weight="0.8460305333137512" />
+      <edge source="malema" target="hafor" id="263" weight="0.7981147766113281" />
+      <edge source="malema" target="neubranner" id="264" weight="0.7790777683258057" />
+      <edge source="goebbels" target="golubchik" id="265" weight="0.8336113095283508" />
+      <edge source="goebbels" target="lorusso" id="266" weight="0.8117808699607849" />
+      <edge source="goebbels" target="joubert" id="267" weight="0.7375832200050354" />
+      <edge source="347144559" target="harryhousen" id="268" weight="0.837367832660675" />
+      <edge source="lenin" target="solovyov" id="269" weight="0.6952452063560486" />
+      <edge source="lenin" target="semenskya" id="270" weight="0.6924317479133606" />
+      <edge source="neubranner" target="sergius" id="271" weight="0.823615550994873" />
+      <edge source="neubranner" target="hafor" id="272" weight="0.7575938105583191" />
+      <edge source="golubchik" target="lorusso" id="273" weight="0.9155962467193604" />
+      <edge source="golubchik" target="joubert" id="274" weight="0.8422194123268127" />
+      <edge source="solovyov" target="semenskya" id="275" weight="0.9235864877700806" />
+      <edge source="sergius" target="hafor" id="276" weight="0.8215041160583496" />
+      <edge source="joubert" target="lorusso" id="277" weight="0.8907805681228638" />
+    </edges>
+  </graph>
+</gexf>
