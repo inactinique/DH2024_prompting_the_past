@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Frédéric Clavert (C2DH, University of Luxembourg)" />
+  <title>Prompting the Past</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="prompting_the_past_prez_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="prompting_the_past_prez_files/reveal.js-3.3.0.1/css/theme/black.css" id="theme">
+
+<style type="text/css">
+.reveal section img {
+  background: rgba(255, 255, 255, 0.85);
+}
+</style>
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <script src="prompting_the_past_prez_files/header-attrs-2.21/header-attrs.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Prompting the Past</h1>
+    <h2 class="author"><a href="mailto:frederic.clavert@uni.lu">Frédéric
+Clavert</a> (C<sup>2</sup>DH, University of Luxembourg)</h2>
+</section>
+
+<section id="section" class="title-slide slide level1">
+<h1></h1>
+<p><img src='../img/07_mr_bean_napoleon.png' width='80%' /></p>
+<p><small>“a portrait of Mr Bean as Napoléon Bonaparte” – obviously a
+more accurate representation of Napoleon than the Ridley Scott movie.
+Source: <a
+href="https://lexica.art/prompt/b3f66591-355d-4205-9c25-b522db922c12">lexica.art</a></small></p>
+<aside class="notes">
+<p>For several years now, images generated by artificial intelligence
+(AI)-based systems such as <a
+href="https://www.midjourney.com/home?callbackUrl=%2Fexplore">midjourney</a>,
+<a href="https://openai.com/dall-e-2">DALL·E</a> or <a
+href="https://stability.ai">StableDiffusion</a>, to give just a few
+examples, have become commonplace. Like text-generating systems such as
+<a href="https://openai.com/gpt-4">GPT</a>, <a
+href="https://ai.meta.com/llama/">LLAMA</a> or <a
+href="https://huggingface.co/bigscience/bloom">BLOOM</a>, they are based
+on interaction with users, which notably results in the writing of
+prompts. The aim of our current research is to examine the various means
+at our disposal for transforming not only generated images and texts but
+also prompts into primary sources for historians.</p>
+<p>Within a couple of years, the digital history (<span class="citation"
+data-cites="salmiWhatDigitalHistory2020">Salmi (2020)</span>) and
+digital memory studies (<span class="citation"
+data-cites="hoskinsDigitalMemoryStudies2018">Hoskins (2018)</span>)
+litterature on AI has expanded. For instance, Wulf Kansteiner
+investigated what a specifically trained generative AI for historians
+could be (<span class="citation"
+data-cites="kansteinerDigitalDopingHistorians2022">Kansteiner
+(2022)</span>) but without really looking at primary sources produced by
+these systems. The possibilities and risks of AI, particularly
+generative AI and especially in Holocaust studies, were analysed in an
+“open forum” of <em>Eastern European Holocaust Studies</em> (<span
+class="citation"
+data-cites="makhortykhOpenForumPossibilities2023">Makhortykh
+(2023)</span>). In particular, the (low) adequacy of the responses of
+some of the generative AIs to Holocaust research was pointed out (<span
+class="citation"
+data-cites="makhortykhGenerativeAIContestation2023">Makhortykh,
+Vziatysheva, and Sydorova (2023)</span>). Online software can be tested
+to understand what generative AI systems “know” about history (<span
+class="citation" data-cites="hutchinsonWhatAIsKnow">Hutchinson
+(n.d.)</span>). Changes – positive or not – in the memorialisation
+processes have also been analysed (<span class="citation"
+data-cites="makhortykhShallAndroidsDream2023">Makhortykh et al.
+(2023)</span>), rather from the infrastructure angle. Most of those
+articles are also dealing with ethics, privacy and biases (including
+biased training dataset). Though research on AI and the past becomes
+more dense, as far as we know, there is little research on prompts as a
+source for history or for the study of collective memory.</p>
+<ul>
+<li>For an <a
+href="https://www.zotero.org/groups/4874770/ai__collective_memory">extended
+bibliography on AI and collective memory:
+https://www.zotero.org/groups/4874770/ai__collective_memory</a>.</li>
+</ul>
+Questionning the past is the core activity of historians, their basic
+epistemological operation in the sense that we ask questions to start
+the process of elaborating new knowledge about the past. The fact that
+easy to use tools (image or text generative systems) are based on
+prompts, which are often explicit or implicit questions, should hence
+get our attention. Those systems are incentives to question our world
+and the world that was, whereas, as “stochastic parrots” (<span
+class="citation" data-cites="benderDangersStochasticParrots2021">Bender
+et al. (2021)</span>), they are a-epistemological: there is no notion of
+truth, lie or knowledge in the way those systems are working. If we
+consider what those systems are based on (code, training dataset for
+instance), what is required to generate an answer (prompts) or outputs
+(images, texts, etc.), then they are generating numerous primary sources
+– artefacts that tells us a lot about the societies of the (near) past.
+We consider here prompts relating to the past as open doors to users’
+imagination about the past, but also as the result of a user-machine
+negotiation (when generative systems are not delivering what the user is
+expecting, the prompt is modified).
+</aside>
+</section>
+
+<section id="harvesting-data" class="title-slide slide level1">
+<h1>Harvesting data</h1>
+<p>The first methodological barrier to a research project on prompts
+related to the past is the making of a corpus. There are several ways we
+could assemble a database of prompts. A first path would be to use
+dedicated search engines, such as <a
+href="https://lexica.art/">Lexica</a>. Those search engines poses
+several problems: either they are basic keywords based search engine and
+collecting prompts would imply a database of past-related keywords, or
+they are “semantic” (the case of lexica) and becomes hence black boxes.
+A further problem with those search engines is that, in our experience,
+their developers have not kept a crucial metadata: date and time. A
+second path would be to directly do what those search engines are doing:
+collecting data on Discord, an instant messaging and VoIP social
+platform. Discord has indeed become a keypoint for communities to share
+their uses of large langguage models or image-generation systems.
+Companies such as <a
+href="https://www.midjourney.com/home?callbackUrl=%2Fexplore">midjourney</a>
+have even used <a
+href="https://docs.midjourney.com/docs/midjourney-discord">Discord as an
+interface to their system</a>. Data could then be scrapped from discord
+public servers – after consultation of an ethics review panel – through
+a bot to respect Discord terms of use.</p>
+<aside class="notes">
+The <a href="https://darcmode.org/">D/ARC community</a> can offer
+insights on discord data scrapping that is compatible with the <a
+href="https://aoir.org/reports/ethics3.pdf">AoIR Ethics Guidelines</a>.
+</aside>
+<p>The hardest part of the constitution of a corpus is nevertheless to
+create a balanced corpus – for instance, we can work with data that are
+not linked to sociodemographic metadata: in other word, we cannot
+investigate who we are studying – on one side; to define what we mean by
+”past” on the other side. Many prompts are ambiguous: generated images
+refering to afrofuturism, for insance, are refering to some future and
+to the past at the same time.</p>
+<p>The lack of sociodemographic metadata could then be supplemented by a
+complementary qualitative approach, based on interviews with users of
+generative AI systems. Those interviews could also complete the prompts’
+data by enligthening us on how users are “negotiating“ with the
+“machine” to get what they expected from it.</p>
+</section>
+
+<section id="analyzing-data" class="title-slide slide level1">
+<h1>Analyzing data</h1>
+<p><img data-src="../img/06_dendro.png"
+alt="Analysis of the corpus of prompts with IRaMuTeQ" /></p>
+<p>For now, we have collected data from a search engine, lexica.art, and
+will use our small dataset (that can be seen as a test sample) for our
+distant reading experiments. This small corpus is made of 1908 prompts,
+collected in March 2023 with the keyword ‘european union’ on lexica.art.
+We chose this keyword to see in which ways users are relating to the
+European Union’s and Europe’s historical past. The preliminary results
+show that, whether using <a href="https://iramuteq.org">iramuteq</a>,
+LDA or word2vec, references to the past are quite important in those
+prompts. Styles (the style users want for an image) are sometimes
+‘historical’ (‘soviet propaganda’ for instance). References to the past
+are mixed with elements of the current or recent news (‘marine’ for the
+far-right politician Marine Le Pen in France, ‘nigel farage’ for the
+Brexit activist, or references to the Russian agression against Ukraine
+for instance). Sometimes the notion of ‘Europe’ is linked to a precise
+period of time, such as the Middle Ages (‘heraldic’). Some historical
+concepts linked to the European history are also quite visible (‘empire’
+for instance). War is very present, but our experience shows that there
+is a general link that is made between history and war in that kind of
+corpus.</p>
+</section>
+
+<section id="conclusion" class="title-slide slide level1">
+<h1>Conclusion</h1>
+<p>AI-based generative systems are an occasion for historians to
+investigate new kind of primary sources, including prompts. Those are
+presenting somr methodological barriers, that can be answered by 1)
+comprehensive ways to collect data; 2) distant reading of prompts as
+primary sources. Nevertheless, distant reading of prompts do not give
+any insights on how users are negotiating with “the machine” when the
+generated text or image does not fit their (ideological, cultural, etc)
+expectations. We hence suggest that historians should mix quantiative
+and qualitative methods, including by doing an oral history of the uses
+of prompts.</p>
+</section>
+
+<section id="code" class="title-slide slide level1">
+<h1>Code</h1>
+<p><small><em>Short paper DH2024</em>. <a
+href="https://github.com/inactinique/DH2024_prompting_the_past/">Available
+on Github, with code notebook</a></small></p>
+</section>
+
+<section id="references" class="title-slide slide level1">
+<h1>References</h1>
+<p><small></p>
+<div id="refs" class="references csl-bib-body hanging-indent"
+data-entry-spacing="0" role="list">
+<div id="ref-benderDangersStochasticParrots2021" class="csl-entry"
+role="listitem">
+Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret
+Shmitchell. 2021. <span>“On the <span>Dangers</span> of <span>Stochastic
+Parrots</span>: <span>Can Language Models Be Too Big</span>?”</span> In
+<em>Proceedings of the 2021 <span>ACM Conference</span> on
+<span>Fairness</span>, <span>Accountability</span>, and
+<span>Transparency</span></em>, 610–23. <span>FAccT</span> ’21.
+<span>New York, NY, USA</span>: <span>Association for Computing
+Machinery</span>. <a
+href="https://doi.org/10.1145/3442188.3445922">https://doi.org/10.1145/3442188.3445922</a>.
+</div>
+<div id="ref-hoskinsDigitalMemoryStudies2018" class="csl-entry"
+role="listitem">
+Hoskins, Andrew, ed. 2018. <em>Digital Memory Studies: Media Pasts in
+Transition</em>. <span>New York</span>: <span>Routledge</span>.
+</div>
+<div id="ref-hutchinsonWhatAIsKnow" class="csl-entry" role="listitem">
+Hutchinson, Daniel. n.d. <span>“What <span>Do AIs</span>
+’<span>Know</span>’ <span>About History</span>? <span>A Digital History
+Experiment</span>.”</span> Accessed October 5, 2023.
+</div>
+<div id="ref-kansteinerDigitalDopingHistorians2022" class="csl-entry"
+role="listitem">
+Kansteiner, Wulf. 2022. <span>“Digital <span>Doping</span> for
+<span>Historians</span>: <span>Can History</span>, <span>Memory</span>,
+and <span>Historical Theory Be Rendered Artificially
+Intelligent</span>?”</span> <em>History and Theory</em> 61 (4): 119–33.
+<a
+href="https://doi.org/10.1111/hith.12282">https://doi.org/10.1111/hith.12282</a>.
+</div>
+<div id="ref-makhortykhOpenForumPossibilities2023" class="csl-entry"
+role="listitem">
+Makhortykh, Mykola. 2023. <span>“Open <span>Forum</span>:
+<span>Possibilities</span> and <span>Risks</span> of <span>Artificial
+Intelligence</span> for <span>Holocaust Memory</span>.”</span>
+<em>Eastern European Holocaust Studies</em> 0 (0). <a
+href="https://doi.org/10.1515/eehs-2023-0053">https://doi.org/10.1515/eehs-2023-0053</a>.
+</div>
+<div id="ref-makhortykhGenerativeAIContestation2023" class="csl-entry"
+role="listitem">
+Makhortykh, Mykola, Victoria Vziatysheva, and Maryna Sydorova. 2023.
+<span>“Generative <span>AI</span> and <span>Contestation</span> and
+<span>Instrumentalization</span> of <span>Memory About</span> the
+<span>Holocaust</span> in <span>Ukraine</span>.”</span> <em>Eastern
+European Holocaust Studies</em>, November. <a
+href="https://doi.org/10.1515/eehs-2023-0054">https://doi.org/10.1515/eehs-2023-0054</a>.
+</div>
+<div id="ref-makhortykhShallAndroidsDream2023" class="csl-entry"
+role="listitem">
+Makhortykh, Mykola, Eve M. Zucker, David J. Simon, Daniel Bultmann, and
+Roberto Ulloa. 2023. <span>“Shall Androids Dream of Genocides?
+<span>How</span> Generative <span>AI</span> Can Change the Future of
+Memorialization of Mass Atrocities.”</span> <em>Discover Artificial
+Intelligence</em> 3 (1): 28. <a
+href="https://doi.org/10.1007/s44163-023-00072-6">https://doi.org/10.1007/s44163-023-00072-6</a>.
+</div>
+<div id="ref-salmiWhatDigitalHistory2020" class="csl-entry"
+role="listitem">
+Salmi, Hannu. 2020. <em>What Is <span>Digital History</span>?</em> 1st
+edition. <span>Medford</span>: <span>Polity</span>.
+</div>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script src="prompting_the_past_prez_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="prompting_the_past_prez_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Display a presentation progress bar
+        progress: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: true,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Transition style
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'prompting_the_past_prez_files/reveal.js-3.3.0.1/plugin/notes/notes.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
