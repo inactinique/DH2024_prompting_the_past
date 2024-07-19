@@ -5,297 +5,260 @@
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
-      <node id="browsing" label="browsing" />
-      <node id="karolina" label="karolina" />
-      <node id="concentration" label="concentration" />
-      <node id="1957" label="1957" />
-      <node id="espirit" label="espirit" />
-      <node id="julius" label="julius" />
-      <node id="imbued" label="imbued" />
+      <node id="hosted" label="hosted" />
       <node id="indulgent" label="indulgent" />
-      <node id="historical" label="historical" />
-      <node id="laveaux" label="laveaux" />
-      <node id="presley" label="presley" />
-      <node id="katana" label="katana" />
-      <node id="swinging" label="swinging" />
-      <node id="history" label="history" />
-      <node id="solendz" label="solendz" />
-      <node id="consideration" label="consideration" />
-      <node id="tragedy" label="tragedy" />
-      <node id="settle" label="settle" />
-      <node id="charreton" label="charreton" />
-      <node id="kindness" label="kindness" />
-      <node id="first" label="first" />
-      <node id="transfer" label="transfer" />
-      <node id="wrong" label="wrong" />
-      <node id="alternate" label="alternate" />
-      <node id="states" label="states" />
-      <node id="pictorial" label="pictorial" />
-      <node id="growth" label="growth" />
-      <node id="yea" label="yea" />
-      <node id="german" label="german" />
-      <node id="zebrowska" label="zebrowska" />
-      <node id="elvis" label="elvis" />
-      <node id="faced" label="faced" />
-      <node id="chalet" label="chalet" />
-      <node id="vilhelm" label="vilhelm" />
-      <node id="since" label="since" />
-      <node id="consists" label="consists" />
-      <node id="practising" label="practising" />
-      <node id="remembered" label="remembered" />
-      <node id="nodachi" label="nodachi" />
-      <node id="ludwik" label="ludwik" />
-      <node id="today" label="today" />
-      <node id="enhanced" label="enhanced" />
-      <node id="battles" label="battles" />
-      <node id="channel" label="channel" />
-      <node id="disarray" label="disarray" />
-      <node id="isabelledeltore" label="isabelledeltore" />
-      <node id="america" label="america" />
-      <node id="someday" label="someday" />
-      <node id="rejoice" label="rejoice" />
-      <node id="wealth" label="wealth" />
-      <node id="exquisit" label="exquisit" />
-      <node id="waking" label="waking" />
-      <node id="pockmarked" label="pockmarked" />
-      <node id="slain" label="slain" />
-      <node id="deepdream" label="deepdream" />
-      <node id="massurrealism" label="massurrealism" />
-      <node id="signing" label="signing" />
-      <node id="camps" label="camps" />
-      <node id="came" label="came" />
-      <node id="follow" label="follow" />
-      <node id="demonstration" label="demonstration" />
-      <node id="darkness" label="darkness" />
-      <node id="owacki" label="owacki" />
-      <node id="pinimg" label="pinimg" />
-      <node id="historian" label="historian" />
-      <node id="walk" label="walk" />
-      <node id="lena" label="lena" />
-      <node id="landruth" label="landruth" />
-      <node id="greatest" label="greatest" />
-      <node id="changes" label="changes" />
-      <node id="freedom" label="freedom" />
-      <node id="transitions" label="transitions" />
-      <node id="dynasty" label="dynasty" />
-      <node id="kneeling" label="kneeling" />
-      <node id="patapon" label="patapon" />
-      <node id="present" label="present" />
-      <node id="learned" label="learned" />
-      <node id="1986" label="1986" />
-      <node id="5th" label="5th" />
-      <node id="accepting" label="accepting" />
-      <node id="beardless" label="beardless" />
-      <node id="1961" label="1961" />
-      <node id="crime" label="crime" />
-      <node id="birth" label="birth" />
-      <node id="join" label="join" />
-      <node id="historic" label="historic" />
+      <node id="idealized" label="idealized" />
       <node id="burma" label="burma" />
-      <node id="surrendering" label="surrendering" />
-      <node id="though" label="though" />
-      <node id="catch" label="catch" />
-      <node id="general" label="general" />
-      <node id="past" label="past" />
-      <node id="hit" label="hit" />
-      <node id="exist" label="exist" />
-      <node id="ming" label="ming" />
-      <node id="scariest" label="scariest" />
-      <node id="meyer" label="meyer" />
+      <node id="china" label="china" />
       <node id="satanic" label="satanic" />
+      <node id="kneeling" label="kneeling" />
+      <node id="crime" label="crime" />
+      <node id="history" label="history" />
+      <node id="fascist" label="fascist" />
+      <node id="regime" label="regime" />
+      <node id="general" label="general" />
+      <node id="though" label="though" />
+      <node id="dynasty" label="dynasty" />
+      <node id="gandalf" label="gandalf" />
+      <node id="nazis" label="nazis" />
+      <node id="deepdream" label="deepdream" />
+      <node id="charreton" label="charreton" />
+      <node id="concentration" label="concentration" />
+      <node id="ludwik" label="ludwik" />
+      <node id="pinimg" label="pinimg" />
+      <node id="yea" label="yea" />
+      <node id="states" label="states" />
+      <node id="walk" label="walk" />
+      <node id="time" label="time" />
+      <node id="kagoshima" label="kagoshima" />
+      <node id="scariest" label="scariest" />
+      <node id="robocop" label="robocop" />
+      <node id="birth" label="birth" />
+      <node id="loop" label="loop" />
+      <node id="signing" label="signing" />
+      <node id="opens" label="opens" />
+      <node id="ming" label="ming" />
+      <node id="karolina" label="karolina" />
+      <node id="laveaux" label="laveaux" />
+      <node id="wealth" label="wealth" />
+      <node id="historian" label="historian" />
+      <node id="barricade" label="barricade" />
+      <node id="consideration" label="consideration" />
+      <node id="america" label="america" />
+      <node id="taken" label="taken" />
+      <node id="soviets" label="soviets" />
+      <node id="historic" label="historic" />
+      <node id="interfaces" label="interfaces" />
+      <node id="mysticism" label="mysticism" />
+      <node id="transfer" label="transfer" />
+      <node id="thor" label="thor" />
+      <node id="overcoming" label="overcoming" />
+      <node id="nodachi" label="nodachi" />
+      <node id="stable" label="stable" />
+      <node id="sword" label="sword" />
+      <node id="present" label="present" />
+      <node id="premier" label="premier" />
+      <node id="mix" label="mix" />
+      <node id="royal" label="royal" />
+      <node id="take" label="take" />
+      <node id="learned" label="learned" />
+      <node id="berlin" label="berlin" />
+      <node id="pictorial" label="pictorial" />
+      <node id="restored" label="restored" />
+      <node id="5th" label="5th" />
+      <node id="vitrine" label="vitrine" />
+      <node id="envy" label="envy" />
+      <node id="historical" label="historical" />
+      <node id="often" label="often" />
+      <node id="german" label="german" />
+      <node id="emperor" label="emperor" />
+      <node id="564x" label="564x" />
+      <node id="owacki" label="owacki" />
+      <node id="rally" label="rally" />
+      <node id="kindness" label="kindness" />
+      <node id="caused" label="caused" />
+      <node id="wrong" label="wrong" />
+      <node id="nap" label="nap" />
+      <node id="alternate" label="alternate" />
+      <node id="accepting" label="accepting" />
+      <node id="catch" label="catch" />
+      <node id="greatest" label="greatest" />
+      <node id="even" label="even" />
+      <node id="past" label="past" />
+      <node id="dsigned" label="dsigned" />
+      <node id="cctv" label="cctv" />
+      <node id="limits" label="limits" />
+      <node id="nepomucen" label="nepomucen" />
+      <node id="windowstore" label="windowstore" />
+      <node id="practising" label="practising" />
+      <node id="zebrowska" label="zebrowska" />
       <node id="com" label="com" />
-      <node id="comedian" label="comedian" />
+      <node id="enhanced" label="enhanced" />
+      <node id="surrendering" label="surrendering" />
+      <node id="camps" label="camps" />
     </nodes>
     <edges>
-      <edge source="browsing" target="solendz" id="0" weight="0.8718023896217346" />
-      <edge source="browsing" target="isabelledeltore" id="1" weight="0.8507951498031616" />
-      <edge source="browsing" target="landruth" id="2" weight="0.6756018400192261" />
-      <edge source="karolina" target="zebrowska" id="3" weight="0.9766845107078552" />
-      <edge source="karolina" target="laveaux" id="4" weight="0.7960588932037354" />
-      <edge source="karolina" target="ludwik" id="5" weight="0.6999905109405518" />
-      <edge source="karolina" target="owacki" id="6" weight="0.6445401310920715" />
-      <edge source="concentration" target="camps" id="7" weight="0.9622461199760437" />
-      <edge source="concentration" target="pictorial" id="8" weight="0.917119562625885" />
-      <edge source="concentration" target="imbued" id="9" weight="0.8608542680740356" />
-      <edge source="concentration" target="enhanced" id="10" weight="0.7340432405471802" />
-      <edge source="1957" target="presley" id="11" weight="0.7126294374465942" />
-      <edge source="1957" target="elvis" id="12" weight="0.7253257632255554" />
-      <edge source="espirit" target="pockmarked" id="13" weight="0.9793590307235718" />
-      <edge source="espirit" target="consists" id="14" weight="0.7085989117622375" />
-      <edge source="espirit" target="came" id="15" weight="0.773803174495697" />
-      <edge source="julius" target="historic" id="16" weight="0.4491666853427887" />
-      <edge source="imbued" target="pictorial" id="17" weight="0.909223735332489" />
-      <edge source="imbued" target="tragedy" id="18" weight="0.8980624079704285" />
-      <edge source="imbued" target="camps" id="19" weight="0.8853668570518494" />
-      <edge source="imbued" target="charreton" id="20" weight="0.633407473564148" />
-      <edge source="imbued" target="vilhelm" id="21" weight="0.5746343731880188" />
-      <edge source="imbued" target="enhanced" id="22" weight="0.7869259715080261" />
-      <edge source="indulgent" target="transfer" id="23" weight="0.6969866156578064" />
-      <edge source="indulgent" target="wealth" id="24" weight="0.6668347120285034" />
-      <edge source="indulgent" target="scariest" id="25" weight="0.5500990748405457" />
-      <edge source="historical" target="historic" id="26" weight="0.5432754158973694" />
-      <edge source="historical" target="presley" id="27" weight="0.41079941391944885" />
-      <edge source="historical" target="ming" id="28" weight="0.4090329110622406" />
-      <edge source="historical" target="german" id="29" weight="0.40438157320022583" />
-      <edge source="historical" target="dynasty" id="30" weight="0.4014218747615814" />
-      <edge source="laveaux" target="ludwik" id="31" weight="0.9801617860794067" />
-      <edge source="laveaux" target="owacki" id="32" weight="0.955399215221405" />
-      <edge source="laveaux" target="zebrowska" id="33" weight="0.7313807010650635" />
-      <edge source="presley" target="elvis" id="34" weight="0.8055180311203003" />
-      <edge source="presley" target="1986" id="35" weight="0.6080928444862366" />
-      <edge source="presley" target="1961" id="36" weight="0.5935450196266174" />
-      <edge source="presley" target="massurrealism" id="37" weight="0.5851528644561768" />
-      <edge source="katana" target="swinging" id="38" weight="0.8071266412734985" />
-      <edge source="katana" target="nodachi" id="39" weight="0.7072198987007141" />
-      <edge source="katana" target="ming" id="40" weight="0.6388137340545654" />
-      <edge source="katana" target="dynasty" id="41" weight="0.5947481989860535" />
-      <edge source="swinging" target="practising" id="42" weight="0.6675036549568176" />
-      <edge source="swinging" target="ming" id="43" weight="0.5778101682662964" />
-      <edge source="history" target="greatest" id="44" weight="0.5447473526000977" />
-      <edge source="history" target="transfer" id="45" weight="0.5289018750190735" />
-      <edge source="history" target="channel" id="46" weight="0.5190851092338562" />
-      <edge source="history" target="wealth" id="47" weight="0.5179757475852966" />
-      <edge source="history" target="america" id="48" weight="0.48884183168411255" />
-      <edge source="solendz" target="isabelledeltore" id="49" weight="0.7697182297706604" />
-      <edge source="solendz" target="landruth" id="50" weight="0.6549569964408875" />
-      <edge source="solendz" target="meyer" id="51" weight="0.5201561450958252" />
-      <edge source="consideration" target="growth" id="52" weight="0.80111163854599" />
-      <edge source="consideration" target="kindness" id="53" weight="0.733900785446167" />
-      <edge source="tragedy" target="pictorial" id="54" weight="0.9254302978515625" />
-      <edge source="tragedy" target="camps" id="55" weight="0.9066139459609985" />
-      <edge source="tragedy" target="enhanced" id="56" weight="0.7150604724884033" />
-      <edge source="settle" target="changes" id="57" weight="0.9116120338439941" />
-      <edge source="settle" target="beardless" id="58" weight="0.6240772604942322" />
-      <edge source="charreton" target="enhanced" id="59" weight="0.6783783435821533" />
-      <edge source="charreton" target="camps" id="60" weight="0.576369047164917" />
-      <edge source="charreton" target="vilhelm" id="61" weight="0.5747498869895935" />
-      <edge source="charreton" target="pictorial" id="62" weight="0.5717631578445435" />
-      <edge source="charreton" target="historian" id="63" weight="0.4271657168865204" />
-      <edge source="kindness" target="birth" id="64" weight="0.8646643161773682" />
-      <edge source="kindness" target="crime" id="65" weight="0.8043423295021057" />
-      <edge source="kindness" target="present" id="66" weight="0.7642489671707153" />
-      <edge source="kindness" target="growth" id="67" weight="0.6836265325546265" />
-      <edge source="kindness" target="past" id="68" weight="0.5149358510971069" />
-      <edge source="first" target="came" id="69" weight="0.6822327971458435" />
-      <edge source="first" target="since" id="70" weight="0.6788209676742554" />
-      <edge source="first" target="present" id="71" weight="0.617193341255188" />
-      <edge source="first" target="catch" id="72" weight="0.6127392053604126" />
-      <edge source="transfer" target="wealth" id="73" weight="0.9465474486351013" />
-      <edge source="transfer" target="greatest" id="74" weight="0.7722474932670593" />
-      <edge source="transfer" target="scariest" id="75" weight="0.6629519462585449" />
-      <edge source="transfer" target="wrong" id="76" weight="0.5909242033958435" />
-      <edge source="transfer" target="deepdream" id="77" weight="0.45250844955444336" />
-      <edge source="alternate" target="america" id="78" weight="0.8341680765151978" />
-      <edge source="alternate" target="satanic" id="79" weight="0.7515154480934143" />
-      <edge source="alternate" target="channel" id="80" weight="0.7120563983917236" />
-      <edge source="states" target="america" id="81" weight="0.8206738233566284" />
-      <edge source="pictorial" target="enhanced" id="82" weight="0.7127685546875" />
-      <edge source="pictorial" target="camps" id="83" weight="0.9012713432312012" />
-      <edge source="growth" target="crime" id="84" weight="0.6925537586212158" />
-      <edge source="growth" target="present" id="85" weight="0.6802334785461426" />
-      <edge source="yea" target="though" id="86" weight="0.7907994389533997" />
-      <edge source="yea" target="walk" id="87" weight="0.7133784890174866" />
-      <edge source="yea" target="learned" id="88" weight="0.6924054026603699" />
-      <edge source="yea" target="remembered" id="89" weight="0.6642071604728699" />
-      <edge source="yea" target="someday" id="90" weight="0.6591100096702576" />
-      <edge source="yea" target="past" id="91" weight="0.4696185886859894" />
-      <edge source="german" target="general" id="92" weight="0.7474509477615356" />
-      <edge source="german" target="accepting" id="93" weight="0.7390591502189636" />
-      <edge source="german" target="kneeling" id="94" weight="0.7245334982872009" />
-      <edge source="german" target="surrendering" id="95" weight="0.6964125037193298" />
-      <edge source="german" target="signing" id="96" weight="0.6528753042221069" />
-      <edge source="zebrowska" target="ludwik" id="97" weight="0.6297211647033691" />
-      <edge source="zebrowska" target="owacki" id="98" weight="0.5838750004768372" />
-      <edge source="zebrowska" target="burma" id="99" weight="0.567781388759613" />
-      <edge source="zebrowska" target="historian" id="100" weight="0.46017488837242126" />
-      <edge source="faced" target="beardless" id="101" weight="0.6528958082199097" />
-      <edge source="faced" target="changes" id="102" weight="0.5639060735702515" />
-      <edge source="chalet" target="comedian" id="103" weight="0.7966844439506531" />
-      <edge source="chalet" target="battles" id="104" weight="0.7756766676902771" />
-      <edge source="chalet" target="channel" id="105" weight="0.7331215143203735" />
-      <edge source="vilhelm" target="enhanced" id="106" weight="0.6072738766670227" />
-      <edge source="vilhelm" target="camps" id="107" weight="0.5498979687690735" />
-      <edge source="since" target="rejoice" id="108" weight="0.8612274527549744" />
-      <edge source="since" target="present" id="109" weight="0.7351898550987244" />
-      <edge source="since" target="catch" id="110" weight="0.5878316760063171" />
-      <edge source="since" target="exist" id="111" weight="0.7785194516181946" />
-      <edge source="consists" target="follow" id="112" weight="0.7408298850059509" />
-      <edge source="consists" target="darkness" id="113" weight="0.7371100187301636" />
-      <edge source="consists" target="disarray" id="114" weight="0.7152833342552185" />
-      <edge source="consists" target="pockmarked" id="115" weight="0.7112981081008911" />
-      <edge source="consists" target="past" id="116" weight="0.4627218246459961" />
-      <edge source="practising" target="dynasty" id="117" weight="0.584743857383728" />
-      <edge source="practising" target="ming" id="118" weight="0.6058281660079956" />
-      <edge source="remembered" target="pockmarked" id="119" weight="0.8766061663627625" />
-      <edge source="remembered" target="present" id="120" weight="0.7474178075790405" />
-      <edge source="nodachi" target="ming" id="121" weight="0.8005200028419495" />
-      <edge source="nodachi" target="dynasty" id="122" weight="0.6577531695365906" />
-      <edge source="ludwik" target="owacki" id="123" weight="0.9853407740592957" />
-      <edge source="today" target="join" id="124" weight="0.9650255441665649" />
-      <edge source="today" target="greatest" id="125" weight="0.8882946372032166" />
-      <edge source="today" target="demonstration" id="126" weight="0.8770444393157959" />
-      <edge source="today" target="freedom" id="127" weight="0.6915420293807983" />
-      <edge source="enhanced" target="camps" id="128" weight="0.7486633062362671" />
-      <edge source="enhanced" target="historian" id="129" weight="0.4465669095516205" />
-      <edge source="battles" target="comedian" id="130" weight="0.778901219367981" />
-      <edge source="battles" target="channel" id="131" weight="0.7264792323112488" />
-      <edge source="channel" target="patapon" id="132" weight="0.7607399821281433" />
-      <edge source="channel" target="comedian" id="133" weight="0.7159529328346252" />
-      <edge source="disarray" target="follow" id="134" weight="0.8399370312690735" />
-      <edge source="isabelledeltore" target="landruth" id="135" weight="0.6766806840896606" />
-      <edge source="america" target="satanic" id="136" weight="0.8404409289360046" />
-      <edge source="america" target="5th" id="137" weight="0.8092214465141296" />
-      <edge source="america" target="slain" id="138" weight="0.783810555934906" />
-      <edge source="someday" target="learned" id="139" weight="0.7858307957649231" />
-      <edge source="rejoice" target="exist" id="140" weight="0.8974535465240479" />
-      <edge source="rejoice" target="catch" id="141" weight="0.569011390209198" />
-      <edge source="wealth" target="greatest" id="142" weight="0.70957350730896" />
-      <edge source="wealth" target="scariest" id="143" weight="0.5962488055229187" />
-      <edge source="wealth" target="deepdream" id="144" weight="0.5498579144477844" />
-      <edge source="exquisit" target="beardless" id="145" weight="0.6492335200309753" />
-      <edge source="exquisit" target="transitions" id="146" weight="0.55486661195755" />
-      <edge source="waking" target="dynasty" id="147" weight="0.5724685788154602" />
-      <edge source="pockmarked" target="crime" id="148" weight="0.7768134474754333" />
-      <edge source="slain" target="5th" id="149" weight="0.8076203465461731" />
-      <edge source="massurrealism" target="1986" id="150" weight="0.747056782245636" />
-      <edge source="massurrealism" target="1961" id="151" weight="0.626995861530304" />
-      <edge source="signing" target="kneeling" id="152" weight="0.8890173435211182" />
-      <edge source="signing" target="accepting" id="153" weight="0.8328803181648254" />
-      <edge source="signing" target="surrendering" id="154" weight="0.8283103108406067" />
-      <edge source="signing" target="general" id="155" weight="0.8267978429794312" />
-      <edge source="came" target="catch" id="156" weight="0.6038066744804382" />
-      <edge source="demonstration" target="freedom" id="157" weight="0.9315292239189148" />
-      <edge source="demonstration" target="greatest" id="158" weight="0.8942675590515137" />
-      <edge source="demonstration" target="join" id="159" weight="0.8539365530014038" />
-      <edge source="pinimg" target="com" id="160" weight="0.855692982673645" />
-      <edge source="pinimg" target="historic" id="161" weight="0.4873751997947693" />
-      <edge source="historian" target="landruth" id="162" weight="0.43326887488365173" />
-      <edge source="historian" target="beardless" id="163" weight="0.4186590611934662" />
-      <edge source="walk" target="learned" id="164" weight="0.7223247289657593" />
-      <edge source="lena" target="meyer" id="165" weight="0.9162952899932861" />
-      <edge source="lena" target="landruth" id="166" weight="0.6544249653816223" />
-      <edge source="landruth" target="meyer" id="167" weight="0.8557878136634827" />
-      <edge source="greatest" target="join" id="168" weight="0.8501837253570557" />
-      <edge source="greatest" target="freedom" id="169" weight="0.7772250175476074" />
-      <edge source="greatest" target="scariest" id="170" weight="0.5758764147758484" />
-      <edge source="changes" target="beardless" id="171" weight="0.6945937871932983" />
-      <edge source="transitions" target="beardless" id="172" weight="0.6565881967544556" />
-      <edge source="dynasty" target="ming" id="173" weight="0.9070541858673096" />
-      <edge source="kneeling" target="general" id="174" weight="0.9079459309577942" />
-      <edge source="kneeling" target="accepting" id="175" weight="0.8537538051605225" />
-      <edge source="patapon" target="comedian" id="176" weight="0.5621886849403381" />
-      <edge source="present" target="crime" id="177" weight="0.7869777679443359" />
-      <edge source="present" target="birth" id="178" weight="0.7664027214050293" />
-      <edge source="present" target="past" id="179" weight="0.5006056427955627" />
-      <edge source="learned" target="though" id="180" weight="0.7780523300170898" />
-      <edge source="1986" target="1961" id="181" weight="0.7102449536323547" />
-      <edge source="accepting" target="surrendering" id="182" weight="0.9047079682350159" />
-      <edge source="accepting" target="general" id="183" weight="0.81036776304245" />
-      <edge source="crime" target="birth" id="184" weight="0.7243182063102722" />
-      <edge source="historic" target="hit" id="185" weight="0.5014142394065857" />
-      <edge source="historic" target="com" id="186" weight="0.4927881360054016" />
-      <edge source="catch" target="exist" id="187" weight="0.6320177316665649" />
-      <edge source="catch" target="past" id="188" weight="0.482747882604599" />
+      <edge source="hosted" target="windowstore" id="0" weight="0.7144173979759216" />
+      <edge source="indulgent" target="transfer" id="1" weight="0.6651948690414429" />
+      <edge source="indulgent" target="wealth" id="2" weight="0.6168946027755737" />
+      <edge source="indulgent" target="scariest" id="3" weight="0.5975467562675476" />
+      <edge source="idealized" target="crime" id="4" weight="0.7910683751106262" />
+      <edge source="idealized" target="present" id="5" weight="0.72002112865448" />
+      <edge source="idealized" target="envy" id="6" weight="0.7779725193977356" />
+      <edge source="burma" target="thor" id="7" weight="0.6556401252746582" />
+      <edge source="burma" target="zebrowska" id="8" weight="0.5388627052307129" />
+      <edge source="china" target="nap" id="9" weight="0.573183536529541" />
+      <edge source="china" target="practising" id="10" weight="0.5527902245521545" />
+      <edge source="china" target="historic" id="11" weight="0.4979437589645386" />
+      <edge source="satanic" target="america" id="12" weight="0.862667977809906" />
+      <edge source="satanic" target="alternate" id="13" weight="0.7351377010345459" />
+      <edge source="kneeling" target="signing" id="14" weight="0.898621141910553" />
+      <edge source="kneeling" target="general" id="15" weight="0.8920921683311462" />
+      <edge source="kneeling" target="accepting" id="16" weight="0.8188477754592896" />
+      <edge source="kneeling" target="german" id="17" weight="0.6947984099388123" />
+      <edge source="crime" target="kindness" id="18" weight="0.8002078533172607" />
+      <edge source="crime" target="birth" id="19" weight="0.7063158750534058" />
+      <edge source="crime" target="consideration" id="20" weight="0.7459498643875122" />
+      <edge source="crime" target="present" id="21" weight="0.7760007381439209" />
+      <edge source="history" target="regime" id="22" weight="0.4675619602203369" />
+      <edge source="history" target="transfer" id="23" weight="0.4657590687274933" />
+      <edge source="history" target="wealth" id="24" weight="0.4273083508014679" />
+      <edge source="history" target="windowstore" id="25" weight="0.4238342344760895" />
+      <edge source="history" target="america" id="26" weight="0.42191389203071594" />
+      <edge source="fascist" target="regime" id="27" weight="0.6937603950500488" />
+      <edge source="fascist" target="rally" id="28" weight="0.6381843090057373" />
+      <edge source="regime" target="rally" id="29" weight="0.925705075263977" />
+      <edge source="regime" target="limits" id="30" weight="0.6848422288894653" />
+      <edge source="regime" target="greatest" id="31" weight="0.6413767337799072" />
+      <edge source="regime" target="wrong" id="32" weight="0.6404736638069153" />
+      <edge source="general" target="signing" id="33" weight="0.8430286049842834" />
+      <edge source="general" target="accepting" id="34" weight="0.8245444893836975" />
+      <edge source="general" target="german" id="35" weight="0.7755659222602844" />
+      <edge source="though" target="even" id="36" weight="0.8497095704078674" />
+      <edge source="though" target="yea" id="37" weight="0.825092613697052" />
+      <edge source="though" target="learned" id="38" weight="0.8092918395996094" />
+      <edge source="dynasty" target="ming" id="39" weight="0.8938839435577393" />
+      <edge source="dynasty" target="nodachi" id="40" weight="0.6446245312690735" />
+      <edge source="dynasty" target="practising" id="41" weight="0.5701742172241211" />
+      <edge source="dynasty" target="sword" id="42" weight="0.5524564385414124" />
+      <edge source="dynasty" target="nap" id="43" weight="0.5517582893371582" />
+      <edge source="dynasty" target="historical" id="44" weight="0.4170707166194916" />
+      <edge source="gandalf" target="birth" id="45" weight="0.6477997303009033" />
+      <edge source="gandalf" target="kindness" id="46" weight="0.6767038106918335" />
+      <edge source="nazis" target="kagoshima" id="47" weight="0.8252525925636292" />
+      <edge source="nazis" target="dsigned" id="48" weight="0.8105667233467102" />
+      <edge source="nazis" target="windowstore" id="49" weight="0.7428690791130066" />
+      <edge source="nazis" target="vitrine" id="50" weight="0.7387591600418091" />
+      <edge source="deepdream" target="wealth" id="51" weight="0.5844851732254028" />
+      <edge source="charreton" target="enhanced" id="52" weight="0.6996861696243286" />
+      <edge source="charreton" target="camps" id="53" weight="0.6448991298675537" />
+      <edge source="charreton" target="pictorial" id="54" weight="0.6336799263954163" />
+      <edge source="charreton" target="robocop" id="55" weight="0.5953413248062134" />
+      <edge source="charreton" target="concentration" id="56" weight="0.5937308669090271" />
+      <edge source="charreton" target="historian" id="57" weight="0.42660853266716003" />
+      <edge source="concentration" target="camps" id="58" weight="0.9752168655395508" />
+      <edge source="concentration" target="interfaces" id="59" weight="0.9326038956642151" />
+      <edge source="concentration" target="robocop" id="60" weight="0.6808443665504456" />
+      <edge source="concentration" target="mysticism" id="61" weight="0.6825911998748779" />
+      <edge source="concentration" target="pictorial" id="62" weight="0.904334306716919" />
+      <edge source="concentration" target="enhanced" id="63" weight="0.7067909836769104" />
+      <edge source="ludwik" target="owacki" id="64" weight="0.987113893032074" />
+      <edge source="ludwik" target="laveaux" id="65" weight="0.9777600169181824" />
+      <edge source="ludwik" target="nepomucen" id="66" weight="0.948799729347229" />
+      <edge source="ludwik" target="karolina" id="67" weight="0.6999357342720032" />
+      <edge source="ludwik" target="zebrowska" id="68" weight="0.5774500966072083" />
+      <edge source="pinimg" target="564x" id="69" weight="0.9406965374946594" />
+      <edge source="pinimg" target="com" id="70" weight="0.8696216344833374" />
+      <edge source="pinimg" target="historic" id="71" weight="0.48479849100112915" />
+      <edge source="yea" target="learned" id="72" weight="0.7445414066314697" />
+      <edge source="yea" target="walk" id="73" weight="0.7044480443000793" />
+      <edge source="yea" target="present" id="74" weight="0.6788529753684998" />
+      <edge source="yea" target="even" id="75" weight="0.6753746271133423" />
+      <edge source="yea" target="past" id="76" weight="0.4953363537788391" />
+      <edge source="states" target="america" id="77" weight="0.8121984601020813" />
+      <edge source="walk" target="learned" id="78" weight="0.7231680154800415" />
+      <edge source="time" target="catch" id="79" weight="0.4792267680168152" />
+      <edge source="kagoshima" target="dsigned" id="80" weight="0.7774824500083923" />
+      <edge source="kagoshima" target="vitrine" id="81" weight="0.7549452781677246" />
+      <edge source="kagoshima" target="windowstore" id="82" weight="0.7420694231987" />
+      <edge source="scariest" target="transfer" id="83" weight="0.7030499577522278" />
+      <edge source="scariest" target="wealth" id="84" weight="0.6760657429695129" />
+      <edge source="robocop" target="enhanced" id="85" weight="0.720292329788208" />
+      <edge source="robocop" target="camps" id="86" weight="0.6953941583633423" />
+      <edge source="robocop" target="pictorial" id="87" weight="0.6841480731964111" />
+      <edge source="robocop" target="mysticism" id="88" weight="0.6791172027587891" />
+      <edge source="robocop" target="historian" id="89" weight="0.42876604199409485" />
+      <edge source="birth" target="kindness" id="90" weight="0.885389506816864" />
+      <edge source="birth" target="present" id="91" weight="0.7486909627914429" />
+      <edge source="birth" target="often" id="92" weight="0.6484637260437012" />
+      <edge source="birth" target="past" id="93" weight="0.4739684760570526" />
+      <edge source="loop" target="catch" id="94" weight="0.4892704486846924" />
+      <edge source="signing" target="accepting" id="95" weight="0.8087072372436523" />
+      <edge source="signing" target="german" id="96" weight="0.6282092332839966" />
+      <edge source="opens" target="catch" id="97" weight="0.5812379717826843" />
+      <edge source="ming" target="nodachi" id="98" weight="0.8124281167984009" />
+      <edge source="ming" target="practising" id="99" weight="0.632365345954895" />
+      <edge source="ming" target="sword" id="100" weight="0.6054689884185791" />
+      <edge source="karolina" target="zebrowska" id="101" weight="0.9693681001663208" />
+      <edge source="karolina" target="laveaux" id="102" weight="0.8118590712547302" />
+      <edge source="karolina" target="owacki" id="103" weight="0.6483805179595947" />
+      <edge source="karolina" target="nepomucen" id="104" weight="0.5858504772186279" />
+      <edge source="karolina" target="historian" id="105" weight="0.4207107126712799" />
+      <edge source="laveaux" target="owacki" id="106" weight="0.9511399269104004" />
+      <edge source="laveaux" target="nepomucen" id="107" weight="0.8919921517372131" />
+      <edge source="laveaux" target="zebrowska" id="108" weight="0.7033154964447021" />
+      <edge source="wealth" target="transfer" id="109" weight="0.9361401200294495" />
+      <edge source="wealth" target="greatest" id="110" weight="0.6894031763076782" />
+      <edge source="historian" target="zebrowska" id="111" weight="0.4947841465473175" />
+      <edge source="historian" target="enhanced" id="112" weight="0.44173792004585266" />
+      <edge source="barricade" target="berlin" id="113" weight="0.8572055697441101" />
+      <edge source="barricade" target="soviets" id="114" weight="0.7771780490875244" />
+      <edge source="barricade" target="take" id="115" weight="0.7122160792350769" />
+      <edge source="barricade" target="overcoming" id="116" weight="0.6929065585136414" />
+      <edge source="barricade" target="caused" id="117" weight="0.6858749389648438" />
+      <edge source="barricade" target="historical" id="118" weight="0.3984319865703583" />
+      <edge source="consideration" target="kindness" id="119" weight="0.7128806710243225" />
+      <edge source="america" target="alternate" id="120" weight="0.7969017624855042" />
+      <edge source="america" target="premier" id="121" weight="0.7779333591461182" />
+      <edge source="america" target="5th" id="122" weight="0.774391233921051" />
+      <edge source="taken" target="mix" id="123" weight="0.6265880465507507" />
+      <edge source="taken" target="restored" id="124" weight="0.6162598729133606" />
+      <edge source="taken" target="cctv" id="125" weight="0.6010591983795166" />
+      <edge source="taken" target="royal" id="126" weight="0.5984973907470703" />
+      <edge source="taken" target="emperor" id="127" weight="0.5905295014381409" />
+      <edge source="taken" target="historical" id="128" weight="0.4114111661911011" />
+      <edge source="soviets" target="berlin" id="129" weight="0.9136688709259033" />
+      <edge source="historic" target="historical" id="130" weight="0.5305981636047363" />
+      <edge source="historic" target="com" id="131" weight="0.4873493015766144" />
+      <edge source="historic" target="564x" id="132" weight="0.48217451572418213" />
+      <edge source="interfaces" target="camps" id="133" weight="0.8871862888336182" />
+      <edge source="interfaces" target="enhanced" id="134" weight="0.6851779222488403" />
+      <edge source="transfer" target="greatest" id="135" weight="0.7743241786956787" />
+      <edge source="transfer" target="wrong" id="136" weight="0.6338979005813599" />
+      <edge source="thor" target="zebrowska" id="137" weight="0.5468305945396423" />
+      <edge source="stable" target="catch" id="138" weight="0.47260797023773193" />
+      <edge source="sword" target="practising" id="139" weight="0.619356095790863" />
+      <edge source="present" target="kindness" id="140" weight="0.7506972551345825" />
+      <edge source="present" target="envy" id="141" weight="0.7194622159004211" />
+      <edge source="present" target="past" id="142" weight="0.527167797088623" />
+      <edge source="premier" target="5th" id="143" weight="0.8031629920005798" />
+      <edge source="royal" target="emperor" id="144" weight="0.6038510799407959" />
+      <edge source="learned" target="even" id="145" weight="0.7836519479751587" />
+      <edge source="pictorial" target="camps" id="146" weight="0.9322820901870728" />
+      <edge source="vitrine" target="windowstore" id="147" weight="0.9864283800125122" />
+      <edge source="vitrine" target="dsigned" id="148" weight="0.7286328077316284" />
+      <edge source="historical" target="german" id="149" weight="0.4095761477947235" />
+      <edge source="german" target="accepting" id="150" weight="0.7568827271461487" />
+      <edge source="german" target="surrendering" id="151" weight="0.6548629403114319" />
+      <edge source="owacki" target="nepomucen" id="152" weight="0.9739069938659668" />
+      <edge source="rally" target="limits" id="153" weight="0.6994298100471497" />
+      <edge source="rally" target="wrong" id="154" weight="0.6212626099586487" />
+      <edge source="kindness" target="past" id="155" weight="0.50150465965271" />
+      <edge source="wrong" target="greatest" id="156" weight="0.7846578359603882" />
+      <edge source="accepting" target="surrendering" id="157" weight="0.865980327129364" />
+      <edge source="catch" target="past" id="158" weight="0.514960527420044" />
+      <edge source="dsigned" target="windowstore" id="159" weight="0.7263390421867371" />
+      <edge source="enhanced" target="camps" id="160" weight="0.7286964654922485" />
     </edges>
   </graph>
 </gexf>
