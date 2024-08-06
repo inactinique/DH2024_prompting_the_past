@@ -466,7 +466,7 @@ href="https://hcommons.social/@inactinique">@inactinique@hcommons.social</a></sm
 <h1></h1>
 <p><img src='../img/07_mr_bean_napoleon.png' width='80%' /></p>
 <p><small>“a portrait of Mr Bean as Napoléon Bonaparte” – obviously a
-more accurate representation of Napoleon than the Ridley Scott movie.
+more accurate representation of Napoléon than the Ridley Scott movie.
 Source: <a
 href="https://lexica.art/prompt/b3f66591-355d-4205-9c25-b522db922c12">lexica.art</a></small></p>
 <aside class="notes">
@@ -501,8 +501,9 @@ data-cites="waldenRecommendationsUsingArtificial2023">Walden and
 Marrison (2023)</span>): possibilities and risks of AI, particularly
 generative AI, in Holocaust studies</li>
 <li>(<span class="citation"
-data-cites="hutchinsonWhatAIsKnow">Hutchinson (n.d.)</span>): online
-software to understand what generative AI systems “know” about
+data-cites="hutchinsonWhatAIsKnow2022">Hutchinson (2022)</span>): <a
+href="https://dr-hutchinson-what-do-ais-know-about-history-app-i3l5jo.streamlit.app/">online
+software</a> to understand what generative AI systems “know” about
 history</li>
 </ul>
 <aside class="notes">
@@ -524,8 +525,8 @@ data-cites="makhortykhGenerativeAIContestation2023">Makhortykh,
 Vziatysheva, and Sydorova (2023)</span>).</p></li>
 <li><p><strong>Online software can be tested to understand what
 generative AI systems “know” about history</strong> (<span
-class="citation" data-cites="hutchinsonWhatAIsKnow">Hutchinson
-(n.d.)</span>).</p></li>
+class="citation" data-cites="hutchinsonWhatAIsKnow2022">Hutchinson
+(2022)</span>).</p></li>
 </ul>
 <p><strong>Changes – positive or not – in the memorialisation processes
 have also been analysed</strong> (<span class="citation"
@@ -533,7 +534,7 @@ data-cites="makhortykhShallAndroidsDream2023">Makhortykh et al.
 (2023)</span>), rather from the infrastructure angle. <strong>Most of
 those articles are also dealing with ethics, privacy and biases</strong>
 (including biased training dataset). Though research on AI and the past
-becomes more dense, <strong>as far as we know, there is little research
+becomes more dense, <strong>as far as I know, there is little research
 on prompts as a source for history or for the study of collective
 memory</strong>.</p>
 </aside>
@@ -576,8 +577,10 @@ lie or knowledge in the way those systems are working.</p></li>
 <li>primary sources</li>
 <li>artefacts that tells us a lot about the societies of the (near)
 past</li>
-<li>open doors to users’ imagination about the past</li>
-<li>result of a user-machine negotiation</li>
+<li>open doors to users’ imagination about the past
+<ul>
+<li>BUT result of a user-machine negotiation</li>
+</ul></li>
 </ul>
 <aside class="notes">
 <ul>
@@ -586,10 +589,10 @@ dataset for instance), what is required to generate an answer (prompts)
 or outputs (images, texts, etc.), then they are generating numerous
 primary sources – artefacts that tells us a lot about the societies of
 the (near) past.</li>
-<li>We consider here prompts relating to the past as open doors to
-users’ imagination about the past, but also as the result of a
-user-machine negotiation (when generative systems are not delivering
-what the user is expecting, the prompt is modified).</li>
+<li>I consider here prompts relating to the past as open doors to users’
+imagination about the past, but also as the result of a user-machine
+negotiation (when generative systems are not delivering what the user is
+expecting, the prompt is modified).</li>
 </ul>
 </aside>
 </section></section>
@@ -628,7 +631,7 @@ interface to their system</a>. <strong>Data could then be scrapped from
 discord public servers – after consultation of an ethics review panel –
 through a bot to respect Discord terms of use</strong>.</li>
 <li><strong>Third path is to use existing datasets</strong>, including
-krea open prompts (that we are using)</li>
+krea open prompts (that I am currently investigating)</li>
 <li>other solutions: setting up a website designed for prompts about the
 past, or a mix of all those solutions.</li>
 </ul>
@@ -658,41 +661,55 @@ data by enligthening us on how users are “negotiating“ with the
 <small>Analysis of the corpus of prompts with <a
 href="https://iramuteq.org/">IRaMuTeQ</a></small></p>
 <aside class="notes">
-For now, we have collected data from a search engine, lexica.art, and
-will use our small dataset (that can be seen as a test sample) for our
-distant reading experiments. This small corpus is made of 1908 prompts,
-collected in March 2023 with the keyword ‘european union’ on lexica.art.
-We chose this keyword to see in which ways users are relating to the
-European Union’s and Europe’s historical past. The preliminary results
-show that, whether using <a href="https://iramuteq.org">iramuteq</a>,
-LDA or word2vec, references to the past are quite important in those
-prompts. Styles (the style users want for an image) are sometimes
-‘historical’ (‘soviet propaganda’ for instance). References to the past
-are mixed with elements of the current or recent news (‘marine’ for the
-far-right politician Marine Le Pen in France, ‘nigel farage’ for the
-Brexit activist, or references to the Russian agression against Ukraine
-for instance). Sometimes the notion of ‘Europe’ is linked to a precise
-period of time, such as the Middle Ages (‘heraldic’). Some historical
-concepts linked to the European history are also quite visible (‘empire’
-for instance). War is very present, but our experience shows that there
-is a general link that is made between history and war in that kind of
-corpus.
+<p>In this analysis, I have collected data from <a
+href="https://lexica.art">lexica.art</a>‘s search engine. This small
+corpus (with no personal data, using the lexica API that existed at this
+time) – almost a sample corpus – is made of 1908 prompts (in other
+experiments? i deal with much more prompts), collected in March 2023
+with the keyword ’european union’.</p>
+<p>I chose this keyword to see in which ways users are relating to the
+European Union’s and Europe’s historical past.</p>
+<p>The preliminary results show that, here using <a
+href="https://iramuteq.org">iramuteq</a>, references to the past are of
+different nature in those prompts.</p>
+<ul>
+<li>Styles (the style users want for an image) are sometimes
+‘historical’ (‘soviet propaganda’ for instance).</li>
+<li>References to the past are mixed with elements of the current or
+recent news (‘marine’ for the far-right politician Marine Le Pen in
+France, ‘nigel farage’ for the Brexit activist, or references to the
+Russian agression against Ukraine for instance).</li>
+<li>The notion of ‘Europe’ is linked to a precise period of time, such
+as the Middle Ages (‘heraldic’).</li>
+<li>Some historical concepts linked to the European history are also
+quite visible (‘empire’ for instance). War is very present, but our
+experience shows that there is a general link that is made between
+history and war in that kind of corpus.</li>
+</ul>
+<p>I have now moved to the krea prompt corpus (10 millions prompts, of
+course only some smal part with historical references), and am
+experimenting with the more traditional LDA style topic modelling, and
+to word vectors for now. Using a LLM couls of course be a supplementary
+option.</p>
 </aside>
 </section>
 
 <section id="conclusion" class="title-slide slide level1">
 <h1>Conclusion</h1>
 <aside class="notes">
-AI-based generative systems are an occasion for historians to
-investigate new kind of primary sources, including prompts. Those are
-presenting somr methodological barriers, that can be answered by 1)
-comprehensive ways to collect data; 2) distant reading of prompts as
-primary sources. Nevertheless, distant reading of prompts do not give
-any insights on how users are negotiating with “the machine” when the
-generated text or image does not fit their (ideological, cultural, etc)
-expectations. We hence suggest that historians should mix quantiative
-and qualitative methods, including by doing an oral history of the uses
-of prompts.
+<p>AI-based generative systems are an occasion for historians to
+investigate new kind of primary sources, including prompts.</p>
+<p>Those are presenting some methodological barriers, that can be
+answered by</p>
+<ol type="1">
+<li>comprehensive ways to collect data;</li>
+<li>distant reading of prompts as primary sources.</li>
+</ol>
+<p>Nevertheless, distant reading of prompts do not give any insights on
+how users are negotiating with “the machine” when the generated text or
+image does not fit their (ideological, cultural, etc) expectations.</p>
+We hence suggest that historians should mix quantiative and qualitative
+methods, including by doing an oral history of the uses of prompts.
 </aside>
 </section>
 
@@ -722,10 +739,11 @@ Parrots</span>: <span>Can Language Models Be Too Big</span>?”</span> In
 York, NY, USA: Association for Computing Machinery. <a
 href="https://doi.org/10.1145/3442188.3445922">https://doi.org/10.1145/3442188.3445922</a>.
 </div>
-<div id="ref-hutchinsonWhatAIsKnow" class="csl-entry" role="listitem">
-Hutchinson, Daniel. n.d. <span>“What <span>Do AIs</span>
+<div id="ref-hutchinsonWhatAIsKnow2022" class="csl-entry"
+role="listitem">
+Hutchinson, Daniel. 2022. <span>“What <span>Do AIs</span>
 ’<span>Know</span>’ <span>About History</span>? <span>A Digital History
-Experiment</span>.”</span> Accessed October 5, 2023.
+Experiment</span>.”</span>
 </div>
 <div id="ref-kansteinerDigitalDopingHistorians2022" class="csl-entry"
 role="listitem">
