@@ -1,6 +1,6 @@
 ---
 author: '<small>[Frédéric Clavert](mailto:frederic.clavert@uni.lu)<br />(C&#178;DH, University of Luxembourg)</small>'
-title: 'Prompting the Past'
+title: 'prompting the past'
 date: '<small>[inactinique.net](https://inactinique.net) / [github.com/inactinique](https://github.com/inactinique) <br /> [\@inactinique\@hcommons.social](https://hcommons.social/@inactinique)</small>'
 output: 
   revealjs::revealjs_presentation:
